@@ -1,0 +1,35 @@
+{% extends 'layout/main.html'%}
+{% block content %}
+<section class="slider_section">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-bg">
+                    <span style="color: black;">KỸ THUẬT LẬP TRÌNH TRONG PHÂN TÍCH DỮ LIỆU</span>
+                    <h1>NHÓM 6</h1>
+                   <div class="card" style="width: 59rem;margin-bottom: 15px;margin-left: 55px;">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                      <h2 class="card-title">Thành viên nhóm</h2>
+                      <p class="card-text">Doãn Quốc Hiếu - 2124802010547 </p>
+                      <p class="card-text">Phan Minh Đại - 2124802010236 </p>
+                      <p class="card-text">Trương Thị Bích Thùy - 2124802010536 </p>
+                    </div>
+                  </div>
+                  <div>
+                    <a href="{{ url_for('list_phim')}}">Data</a> <a href="{{ url_for('search')}}">Search</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ </div>
+</section>
+{% endblock %}
